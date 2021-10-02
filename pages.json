@@ -1,0 +1,55 @@
+{
+    "easycom": {
+        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [
+        {
+            "path": "pages/authorization/index"
+        },
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "回顾",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/write/index",
+            "style": {
+                "navigationBarTitleText": "记录"
+            }
+        },
+        {
+            "path": "pages/mine/index",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }
+    ],
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#007AFF",
+        "borderStyle": "black",
+        "backgroundColor": "#F8F8F8",
+        "list": [
+            {
+                "pagePath": "pages/home/index"
+            },
+            {
+                "pagePath": "pages/write/index"
+            },
+            {
+                "pagePath": "pages/mine/index"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "憨憨随手记",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8",
+        "app-plus": {
+            "background": "#efeff4"
+        }
+    }
+}
